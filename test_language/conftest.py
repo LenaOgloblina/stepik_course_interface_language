@@ -1,6 +1,5 @@
 import pytest
 from selenium import webdriver
-# Выгрузился пустой файл
 def pytest_addoption(parser):
     parser.addoption('--language', action='store', default="ru",
                      help="Choose language: ru, es or en")
